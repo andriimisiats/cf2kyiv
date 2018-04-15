@@ -1,0 +1,351 @@
+*
+{
+	font-family: 'Roboto', sans-serif;
+}
+h1
+{
+	font-size: 61px;
+}
+h2
+{
+	font-size: 53px;
+}
+h3
+{
+	font-size: 40px;
+}
+h4
+{
+	font-size: 29px;
+}
+h5
+{
+	font-size: 26px;
+}
+h6
+{
+	font-size: 24px;
+}
+a
+{
+	color: #303845 !important;
+}
+p
+{
+	font-size: 16px;
+	line-height: 24px;
+}
+
+/* FOR ALL SECTION */
+
+.section-title
+{
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+textarea
+{
+	min-height: 60px;
+	max-height: 300px;
+}
+
+/* HEADER SECTION */
+
+nav
+{
+	background: #ffffff;
+	font-size: 20px;
+}
+
+nav .logo
+{
+	height: 110px;
+}
+
+nav ul.navbar-nav a:after 
+{
+	display:block;
+	content: '';
+	border-bottom: solid 3px #f3d64c;  
+	transform: scaleX(0);  
+	transition: transform 250ms ease-in-out;
+}
+
+nav nav
+{
+	background-color: #f7f7f7 !important;
+}
+
+nav ul.navbar-nav a:hover:after 
+{ 
+	transform: scaleX(1); 
+}
+
+
+/* SLIDE SECTION */
+
+section#slide
+{
+	background-image: url('../img/head.jpg');
+	height: 750px;
+	background-size: cover;
+	box-shadow: 500px 500px 500px rgba(0, 0, 0, 0.5) inset;
+}
+
+
+section.slide .slide-form
+{
+	background-color: rgba(18, 4, 1, 0.8);
+    border-radius: 10px;
+    padding: 25px 20px 30px;
+    margin-top: 8%;
+}
+
+section.slide .slide-form h3
+{
+	color: #ffffff;
+}
+
+section.slide .slide-thank-you
+{
+	background-color: rgba(18, 4, 1, 0.8);
+    border-radius: 10px;
+    padding: 25px 20px 30px;
+    margin-top: 8%;
+    display: none;
+    text-align: center;
+}
+
+section.slide .slide-thank-you h3
+{
+	color: #ffffff;
+}
+
+section.slide .slide-thank-you div.icon
+{
+	color: #4caf50;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+section.slide .slide-thank-you div.icon i
+{
+	font-size: 35px;
+}
+
+section.slide .slide-text
+{
+	margin-top: 8%;
+}
+
+section.slide .slide-text h1
+{
+	color: #ffffff;
+}
+
+
+/* WHY WE? SECTION */
+
+section.whywe .post
+{
+    background-color: #f7f7f7;
+    border: 1px solid #e4e8ea;
+    text-align: center;
+    border-radius: 4px;
+    padding: 30px 15px 25px;
+    margin: 0 0 40px;
+    transition: all 300ms ease 0s;
+}
+
+section.whywe .post:hover
+{
+	box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.15);
+}
+
+section.whywe .icon
+{
+	color: #f3d64c;
+	margin: 0 auto 15px;
+    text-align: center;
+}
+
+section.whywe .icon i
+{
+	font-size: 35px;
+	transition: all 300ms ease-out 0s;
+}
+
+section.whywe .post:hover .icon i { transform: translateY(-5px); }
+
+
+
+/* WHY EXIMPLAST? SECTION */
+
+section.whyeximplast
+{
+	background-color: #f7f7f7;
+}
+
+section.whyeximplast .post
+{
+    background-color: #ffffff;
+    border: 1px solid #e4e8ea;
+    text-align: center;
+    border-radius: 4px;
+    padding: 30px 15px 25px;
+    margin: 0 0 40px;
+    transition: all 300ms ease 0s;
+}
+
+section.whyeximplast .post:hover
+{
+	box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.15);
+}
+
+section.whyeximplast .icon
+{
+	color: #f3d64c;
+	margin: 0 auto 15px;
+    text-align: center;
+}
+
+section.whyeximplast .icon i
+{
+	font-size: 35px;
+	transition: all 300ms ease-out 0s;
+}
+
+section.whyeximplast .post:hover .icon i { transform: translateY(-5px); }
+
+
+/* SCOPE SECTION */
+
+section.products .nav .nav-item
+{
+	background-color: #f7f7f7;
+	border: 1px solid #e4e8ea;
+	border-radius: 4px;
+	transition: box-shadow 300ms ease 0s;
+	margin-bottom: 5px;
+}
+
+section.products .post
+{
+	text-align: center;
+}
+
+section.products .nav img
+{
+	height: 45px;
+}
+
+section.products .nav .nav-item:hover
+{
+	box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.15);
+}
+
+
+/* CONTACTS SECTION */
+
+section.contacts .post
+{
+    background-color: #f7f7f7;
+    border: 1px solid #e4e8ea;
+    text-align: center;
+    border-radius: 4px;
+    padding: 30px 15px 25px;
+    margin: 0 0 40px;
+    transition: all 300ms ease 0s;
+    height:225px;
+}
+
+section.contacts .post:hover
+{
+	box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.15);
+}
+
+section.contacts .icon
+{
+	color: #4caf50;
+	margin: 0 auto 15px;
+    text-align: center;
+}
+
+section.contacts .icon i
+{
+	font-size: 35px;
+	transition: all 300ms ease-out 0s;
+}
+
+section.contacts .post:hover .icon i { transform: translateY(-5px); }
+
+
+section.contacts .map
+{
+	height: 500px;
+}
+
+
+/* FOOTER SECTION */
+
+
+footer.footer
+{
+	background-color: #f7f7f7;
+	height: 100px;
+	margin-top: 60px;
+}
+
+footer .row
+{
+	padding: 0px 15px 0px 15px;
+	transform: translateY(+100%);
+}
+
+footer .social-links a:after 
+{
+	display:block;
+	content: '';
+	border-bottom: solid 3px #f3d64c;  
+	transform: scaleX(0);  
+	transition: transform 250ms ease-in-out;
+}
+
+footer .social-links a:hover:after 
+{ 
+	transform: scaleX(1); 
+}
+
+/* MEDIA */
+
+@media (min-width: 0px) and (max-width: 993px) 
+{
+    div.phone
+  	{
+    	display: none;
+  	}
+}
+
+@media (min-width: 0px) and (max-width: 500px) 
+{
+    h1
+  	{
+    	font-size: 30px !important;
+  	}
+
+  	textarea
+  	{
+  		max-height: 200px;
+  	}
+
+  	section.products ul.nav
+  	{
+  		margin-left: 15px;
+  	}
+}
+
+
+/* GOLD: #f3d64c */
+/* BLACK: #303845 */
